@@ -81,9 +81,17 @@ export default {
     name:'Lander',
     components:{
         talk
-    }  
-}
+    }  ,
 
+    methods:{
+
+
+    }, 
+    computed:{
+
+    }
+
+}
 </script>
 
 <style lang="css" scoped>

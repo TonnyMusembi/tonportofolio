@@ -15,12 +15,9 @@ export default {
   components: {
     Navigation,
     Footer,
-  
-
   }
 }
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
