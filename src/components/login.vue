@@ -8,7 +8,7 @@
                         <div class="padding-xl"></div>
                     </div>
                     <div class="sixteen wide center aligned column padding-bottom-md">
-                         <router-link class="padding-bottom-md" to="/"><img src="../assets/logo.png" height="40" /></router-link>
+                         <!-- <router-link class="padding-bottom-md" to="/"><img src="../assets/logo.png" height="40" /></router-link> -->
                     </div>
                     <div class="twelve wide computer fourteen wide tablet sixteen wide mobile column">
                         <h1 class="padding-bottom-lg text-medium text-center">Forgot Password</h1>
@@ -25,7 +25,6 @@
                             <div class="field">
                                 <button id="button-reset" type="submit" class="ui large green fluid button">Next</button>
                             </div>
-                    
                         </form>
                     </div>
                 </div>
@@ -33,3 +32,10 @@
         </div>
     </div>
 </template>
+<script>
+export default {
+    setup() {
+        
+    },
+}
+</script>

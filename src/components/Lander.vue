@@ -75,7 +75,6 @@
         </section>
     </div>
 </template>
-
 <script lang="ts">
 import talk from './Contact.vue'
 export default {
