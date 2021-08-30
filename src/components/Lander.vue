@@ -84,16 +84,12 @@ export default {
     }  ,
 
     methods:{
-
-
+  
     }, 
     computed:{
-
     }
-
 }
 </script>
-
 <style lang="css" scoped>
     .section{
         padding-top: 10%;
@@ -112,5 +108,4 @@ export default {
         height: 140px;
         margin-top: 15px;
     }
-
 </style>
