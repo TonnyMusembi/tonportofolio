@@ -26,3 +26,5 @@ document.write( generateOTP() );
 }
 }
 </script>
+<style>
+</style>

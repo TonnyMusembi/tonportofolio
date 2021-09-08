@@ -1,11 +1,18 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+import VueCookies from 'vue-cookies';
+
+
+
+
+
 Vue.use(VueRouter);
+Vue.use(VueCookies);
 
 // 
 
 let router = new VueRouter({
-    // mode: 'history',
+    mode: 'history',
     routes: [{
             path: '/',
             name: 'Landing',
@@ -18,12 +25,8 @@ let router = new VueRouter({
             component: () =>
                 import ('./components/login')
         },
-        // {
-        // path: '/',
-        //     name: 'perfomance',
-        //     pages: () =>
-        //         import ('./pages/perfomance'
-        //         },
+
+
     ]
 });
 export default router;
