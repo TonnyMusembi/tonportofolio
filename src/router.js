@@ -19,7 +19,7 @@ let router = new VueRouter({
                 import ('./components/login')
         },
         // {
-        //     path: '/',
+        // path: '/',
         //     name: 'perfomance',
         //     pages: () =>
         //         import ('./pages/perfomance'
