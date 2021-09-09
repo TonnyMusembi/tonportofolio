@@ -6,9 +6,13 @@
              <div class="field">
                  <router-link :to="{name:'login'}">Login</router-link>
                             </div>
-                <img alt=" logo" class="rounded-cirlce" src="../assets/logo.png" /> 
+          
+      
+
+                <img alt=" logo" class="rounded-cirlce" src="../assets/logo.png" 
+                /> 
                 <h1>Software Developer</h1>
-                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bd-example-modal-lg">Contact</button>
+              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bd-example-modal-lg">Contact</button>
             </div>
         </section>
         <!-- portfolio section -->
@@ -79,13 +83,26 @@
 import talk from './Contact.vue'
 export default {
     name:'Lander',
+
+data() {
+    return {
+       
+    }
+},
     components:{
         talk
     }  ,
 
     methods:{
-  
+      
     }, 
+
+    mounted() {
+        
+
+        
+    },
+     
     computed:{
     }
 }

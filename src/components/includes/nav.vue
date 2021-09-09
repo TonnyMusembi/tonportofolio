@@ -17,11 +17,27 @@
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#">Disabled</a>
                 </li>
+
                 </ul>
+
+                <div class="right-aligned">
+                    <button class="primary button">login</button>
+                </div>
+           
             </div>
         </nav>
     </div>
 </template>
+
+<script>
+export default {
+    setup() {
+        
+
+     
+    },
+}
+</script>
 
 <style scoped>
     .fix-top{
