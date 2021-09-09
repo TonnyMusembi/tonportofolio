@@ -2,7 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import VueCookies from 'vue-cookies';
 
-
+import login from "./views/login"
 import Verify from "./views/Verify";
 import Forgotpassword from '@/views/Forgotpassword'
 import footer from '@/views/footer'
@@ -29,6 +29,9 @@ let router = new VueRouter({
         },
 
         { path: '/verify', name: 'verify-account', component: Verify },
+
+        { path: '/login', name: 'login', component: login },
+
 
         {
             path: '/Forgotpassword',
