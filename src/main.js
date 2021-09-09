@@ -5,6 +5,8 @@ import store from './store'
 
 import VModal from 'vue-js-modal'
 
+//import "@/assets/layout.scss"
+
 
 Vue.config.productionTip = false
 

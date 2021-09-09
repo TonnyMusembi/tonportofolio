@@ -10,8 +10,6 @@ import footer from '@/views/footer'
 Vue.use(VueRouter);
 Vue.use(VueCookies);
 
-// 
-
 let router = new VueRouter({
     mode: 'history',
     routes: [
@@ -30,7 +28,7 @@ let router = new VueRouter({
                 import ('./components/login')
         },
 
-        { path: '/verify', name: 'verify-account', component: Verify },
+        { path: '/verify', name: 'Verify', component: Verify },
 
         { path: '/login', name: 'login', component: login },
         {

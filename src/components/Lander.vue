@@ -7,8 +7,6 @@
                  <router-link :to="{name:'login'}">Login</router-link>
                             </div>
           
-      
-
                 <img alt=" logo" class="rounded-cirlce" src="../assets/logo.png" 
                 /> 
                 <h1>Software Developer</h1>
