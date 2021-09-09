@@ -14,13 +14,15 @@ Vue.use(VueCookies);
 
 let router = new VueRouter({
     mode: 'history',
-    routes: [{
+    routes: [
+
+        { path: '/verify', name: 'verify-account', component: Verify },
+        {
             path: '/',
             name: 'Lander',
             component: () =>
                 import ('./components/Lander')
         },
-
         {
             path: '/',
             name: 'Login',
@@ -31,7 +33,6 @@ let router = new VueRouter({
         { path: '/verify', name: 'verify-account', component: Verify },
 
         { path: '/login', name: 'login', component: login },
-
         {
             path: '/Forgotpassword',
             name: 'Forgotpassword',
