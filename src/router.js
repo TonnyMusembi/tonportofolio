@@ -22,6 +22,8 @@ let router = new VueRouter({
             name: 'Lander',
             component: () =>
                 import ('./components/Lander')
+
+
         },
         {
             path: '/',

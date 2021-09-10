@@ -31,11 +31,13 @@
 
 <script>
 export default {
-    setup() {
-        
+    mounted:{
 
-     
     },
+    methods:{
+
+    },
+    
 }
 </script>
 
