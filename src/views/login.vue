@@ -54,6 +54,7 @@
 </div>
 </template>
 <script>
+
 export default {
     setup() {
         
@@ -61,10 +62,9 @@ export default {
     methods:{
 
 
-
     },
 
-computed(){
+computed:{
 
 }
 
