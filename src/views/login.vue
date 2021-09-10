@@ -1,8 +1,5 @@
 <template>
 <div>
-
-
-
      <div class="ten wide computer fourteen wide tablet sixteen wide mobile column">
             <h1 class="text-center padding-bottom-lg text-medium">Login</h1>
             <div class="ui negative message" v-show="loginStatus">
@@ -54,21 +51,39 @@
 </div>
 </template>
 <script>
-
+import axios from "axios"
 export default {
     setup() {
         
     },
     methods:{
+       login(){
+           axios
+           .get(''),{
+               
+           }
+
+           .then((response) => {
+               console.log(response)
+               .catch((error) => {
+                   console.log(error)
+      
+               })
+            
+           })
 
 
+       },
     },
 
 computed:{
 
 }
 
+
 }
 </script>
 <style>
+
+
 </style>

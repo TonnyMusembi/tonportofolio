@@ -92,13 +92,11 @@ data() {
     }  ,
 
     methods:{
-      
+   
     }, 
 
     mounted() {
-        
-
-        
+    
     },
      
     computed:{
